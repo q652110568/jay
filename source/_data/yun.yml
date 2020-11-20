@@ -1,0 +1,107 @@
+avatar:
+  url: /images/avater.jfif # 你的头像图片地址
+  rounded: true
+  opacity: 1
+  mickey_mouse: false
+  status:
+    enable: true
+    emoji: 😊
+    message: 永远相信美好的事情即将发生
+
+
+reward:
+  enable: false
+  comment: 我很可爱，请给我钱
+  methods:
+    - name: 支付宝
+      path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/alipay-qrcode.jpg
+      color: "#00A3EE"
+      icon: icon-alipay-line
+    - name: 微信支付
+      path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/wechatpay-qrcode.jpg
+      color: "#2DC100"
+      icon: icon-wechat-pay-line
+
+pages:
+
+social:
+  - name: GitHub
+    link: https://github.com/q652110568
+    icon: icon-github-line
+    color: "#6e5494"
+  - name: 网易云音乐
+    link: https://music.163.com/#/user/home?id=63855776
+    icon: icon-netease-cloud-music-line
+    color: "#C20C0C"
+  - name: 知乎
+    link: https://www.zhihu.com/people/wang-sheng-50-1-71
+    icon: icon-zhihu-line
+    color: "#0084FF"
+  - name: 哔哩哔哩
+    link: https://space.bilibili.com/16195158
+    icon: icon-bilibili-line
+    color: "#FF8EB3"
+  - name: E-Mail
+    link: mailto:652110568@qq.com
+    icon: icon-mail-line
+    color: "#8E71C1"
+
+# Comments
+comment:
+  enable: true
+  icon: icon-chat-3-line
+  tips:
+    - 点击按钮跳转 GitHub Issues 评论。
+  # candidates:
+  #   - valine
+  #   - utterances
+
+# GitHub Issues Link Button
+# https://help.github.com/en/github/searching-for-information-on-github/searching-issues-and-pull-requests
+github_issues:
+  enable: true
+  username: q652110568
+  repository: jay
+  filters: is:issue
+
+# main menu navigation
+menu:
+  home:
+    path: /
+    icon: icon-home-4-line
+  list:
+    - type: archives
+      path: /archives/
+      icon: icon-archive-line
+    - type: categories
+      path: /categories/
+      icon: icon-folder-2-line
+    - type: tags
+      path: /tags/
+      icon: icon-price-tag-3-line
+  custom:
+    title: 文档
+    path: https://www.baidu.com
+    icon: icon-settings-line
+# UI
+banner:
+  enable: true
+  title: 夜阑君的小站
+  src: /js/ui/banner.js
+  border: true
+  cloud:
+    enable: true
+    color: "white"
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-line
+notice:
+  enable: true
+  content: Thanks for playing my game.
+cursor:
+  enable: false
+  default: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/pointer.cur
+  pointer: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur
+  text: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/text.cur
+
+foot:
